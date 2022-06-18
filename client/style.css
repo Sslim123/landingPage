@@ -1,0 +1,182 @@
+
+.header1 p{
+    color: black;
+    font-size: 2em;
+    font-weight: 2em;}
+    header button{
+      background-color: black;
+    }
+header {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  color: black; }
+  section button {
+    background:  linear-gradient(red, rgba(255, 0, 102, 0.899));
+  }
+
+body {
+  background-color: azure; }
+  .container{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .section1{
+    display: flex;
+    justify-content: space-around;
+
+  }.firstdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px ;
+  }
+  .firstp{
+    width: 300px;
+    
+  }
+  .firstscond{
+    background-color: blue;
+    position: relative;
+    width: 40%;
+    margin-right: 0;
+    background: linear-gradient(to bottom right,white 30%, blue 30%, white 60%  );
+  }
+  .firstscond p{
+  color: black;
+  width: 140px;
+  height: 70px;
+  font-size: 1.5em;
+  background-color: beige;
+  border-radius: 1rem;
+  text-align: center;
+
+  }
+  .firstscond .p1{
+    position: relative;
+    top: 150px;
+    left: 210px;
+  }
+  .firstscond .p2{
+    position: relative;
+    bottom: 120px;
+    right: 50px;
+  }
+.firstscond img{
+  background-color: red;
+  border-top-left-radius: 45%;
+  border-bottom-left-radius: 45%;
+  border-top-right-radius: 45%;
+  border-bottom-right-radius: 45%;
+
+  width: 280px;
+  height: 420px;
+}
+button {
+  background-color: blue;
+  color: aliceblue;
+  border-radius: 1.5em;
+  font-size: 1.6em;
+  width: 160px;
+  height: 60px; }
+.footer1{
+background-color: rgba(47, 47, 177, 0.896);
+width: 100%;
+height: 90px;
+display: flex;
+justify-content: space-around;
+align-items: center;}
+.footer1 p{
+  color: beige;
+  font-size: larger;font-size: 1.8em;
+}
+.footer1 button{
+  background:  linear-gradient(red, rgba(255, 0, 102, 0.899));
+}
+card{
+  width: 310px;
+  height: 270px;
+  border-radius: 1.5em;
+  background-color: white;
+  opacity: 2;
+float: left;
+}card a{
+  width: 60px;
+  font-size: 1.2em;
+  color: red;
+  background-color: none;
+  top: 20px;
+}card p{
+  width: 280px;
+  height: auto;
+  text-align:start ;
+  padding: .5em;
+}
+a{
+  position: relative;
+left: 0;
+  text-align: start ;
+}
+.artcle1{
+  display: flex;
+  justify-content: center;
+  margin:  100px;
+
+}
+.artcle1{
+  text-align: center;
+  padding-top: 50px;
+  display: grid;
+  gap: 35px;
+  width: 90%;
+grid-template-columns: 20% 20% 20%;
+}.dinsecond i{
+  display: inline-flex;
+  justify-content: center;
+ align-items: center;
+}
+i{
+  background:  linear-gradient(red, rgba(255, 0, 102, 0.899));
+
+  border-radius: 50%;
+  width: 50px;
+  height: 40px;
+  opacity: 2;
+  display: inline-flex;
+  justify-content: center;
+ align-items: center;
+  color: antiquewhite;
+  position: relative;
+  top: -20px;
+}
+@media screen and (max-width: 540px) {
+   .header1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }section{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }.firstscond .p1 .p2{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    card{
+     width: 480px;
+
+   }
+  .artcle1{
+    width: 480px;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: blueviolet;
+  }
+  .footer1{
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+  }
+}
